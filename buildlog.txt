@@ -1,0 +1,1185 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/andadasc/METADATA.json /home/travis/build/fontdirectory/andadasc/builds/build
+$ cp -a /home/travis/build/fontdirectory/andadasc/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/andadasc/builds/build
+$ cp -a AndadaSC-Regular.ttf.ttx AndadaSC-Italic.ttf.ttx AndadaSC-BoldItalic.ttf.ttx AndadaSC-Bold.ttf.ttx src/AndadaSC-Regular.otf.ttx src/AndadaSC-Italic.otf.ttx src/AndadaSC-BoldItalic.otf.ttx src/AndadaSC-Bold.otf.ttx src/AndadaSC-Regular-TTF.sfd src/AndadaSC-Italic-TTF.sfd src/AndadaSC-BoldItalic-TTF.sfd src/AndadaSC-Bold-TTF.sfd AndadaSC-Regular.ttf._p_r_e_p.ttx AndadaSC-Regular.ttf._p_o_s_t.ttx AndadaSC-Regular.ttf._n_a_m_e.ttx AndadaSC-Regular.ttf._m_a_x_p.ttx AndadaSC-Regular.ttf._l_o_c_a.ttx AndadaSC-Regular.ttf._h_m_t_x.ttx AndadaSC-Regular.ttf._h_h_e_a.ttx AndadaSC-Regular.ttf._h_e_a_d.ttx AndadaSC-Regular.ttf._g_l_y_f.ttx AndadaSC-Regular.ttf._g_a_s_p.ttx AndadaSC-Regular.ttf._c_m_a_p.ttx AndadaSC-Regular.ttf.O_S_2f_2.ttx AndadaSC-Regular.ttf.GlyphOrder.ttx AndadaSC-Regular.ttf.G_S_U_B_.ttx AndadaSC-Regular.ttf.G_P_O_S_.ttx AndadaSC-Regular.ttf.G_D_E_F_.ttx AndadaSC-Regular.ttf.F_F_T_M_.ttx AndadaSC-Regular.ttf.D_S_I_G_.ttx AndadaSC-Italic.ttf._p_r_e_p.ttx AndadaSC-Italic.ttf._p_o_s_t.ttx AndadaSC-Italic.ttf._n_a_m_e.ttx AndadaSC-Italic.ttf._m_a_x_p.ttx AndadaSC-Italic.ttf._l_o_c_a.ttx AndadaSC-Italic.ttf._h_m_t_x.ttx AndadaSC-Italic.ttf._h_h_e_a.ttx AndadaSC-Italic.ttf._h_e_a_d.ttx AndadaSC-Italic.ttf._g_l_y_f.ttx AndadaSC-Italic.ttf._g_a_s_p.ttx AndadaSC-Italic.ttf._c_m_a_p.ttx AndadaSC-Italic.ttf.O_S_2f_2.ttx AndadaSC-Italic.ttf.GlyphOrder.ttx AndadaSC-Italic.ttf.G_S_U_B_.ttx AndadaSC-Italic.ttf.G_P_O_S_.ttx AndadaSC-Italic.ttf.G_D_E_F_.ttx AndadaSC-Italic.ttf.F_F_T_M_.ttx AndadaSC-Italic.ttf.D_S_I_G_.ttx AndadaSC-BoldItalic.ttf._p_r_e_p.ttx AndadaSC-BoldItalic.ttf._p_o_s_t.ttx AndadaSC-BoldItalic.ttf._n_a_m_e.ttx AndadaSC-BoldItalic.ttf._m_a_x_p.ttx AndadaSC-BoldItalic.ttf._l_o_c_a.ttx AndadaSC-BoldItalic.ttf._h_m_t_x.ttx AndadaSC-BoldItalic.ttf._h_h_e_a.ttx AndadaSC-BoldItalic.ttf._h_e_a_d.ttx AndadaSC-BoldItalic.ttf._g_l_y_f.ttx AndadaSC-BoldItalic.ttf._g_a_s_p.ttx AndadaSC-BoldItalic.ttf._c_m_a_p.ttx AndadaSC-BoldItalic.ttf.O_S_2f_2.ttx AndadaSC-BoldItalic.ttf.GlyphOrder.ttx AndadaSC-BoldItalic.ttf.G_S_U_B_.ttx AndadaSC-BoldItalic.ttf.G_P_O_S_.ttx AndadaSC-BoldItalic.ttf.G_D_E_F_.ttx AndadaSC-BoldItalic.ttf.F_F_T_M_.ttx AndadaSC-BoldItalic.ttf.D_S_I_G_.ttx AndadaSC-Bold.ttf._p_r_e_p.ttx AndadaSC-Bold.ttf._p_o_s_t.ttx AndadaSC-Bold.ttf._n_a_m_e.ttx AndadaSC-Bold.ttf._m_a_x_p.ttx AndadaSC-Bold.ttf._l_o_c_a.ttx AndadaSC-Bold.ttf._h_m_t_x.ttx AndadaSC-Bold.ttf._h_h_e_a.ttx AndadaSC-Bold.ttf._h_e_a_d.ttx AndadaSC-Bold.ttf._g_l_y_f.ttx AndadaSC-Bold.ttf._g_a_s_p.ttx AndadaSC-Bold.ttf._c_m_a_p.ttx AndadaSC-Bold.ttf.O_S_2f_2.ttx AndadaSC-Bold.ttf.GlyphOrder.ttx AndadaSC-Bold.ttf.G_S_U_B_.ttx AndadaSC-Bold.ttf.G_P_O_S_.ttx AndadaSC-Bold.ttf.G_D_E_F_.ttx AndadaSC-Bold.ttf.F_F_T_M_.ttx AndadaSC-Bold.ttf.D_S_I_G_.ttx src/AndadaSC-Regular.otf._p_o_s_t.ttx src/AndadaSC-Regular.otf._n_a_m_e.ttx src/AndadaSC-Regular.otf._m_a_x_p.ttx src/AndadaSC-Regular.otf._k_e_r_n.ttx src/AndadaSC-Regular.otf._h_m_t_x.ttx src/AndadaSC-Regular.otf._h_h_e_a.ttx src/AndadaSC-Regular.otf._h_e_a_d.ttx src/AndadaSC-Regular.otf._c_m_a_p.ttx src/AndadaSC-Regular.otf.O_S_2f_2.ttx src/AndadaSC-Regular.otf.GlyphOrder.ttx src/AndadaSC-Regular.otf.G_P_O_S_.ttx src/AndadaSC-Regular.otf.C_F_F_.ttx src/AndadaSC-Italic.otf._p_o_s_t.ttx src/AndadaSC-Italic.otf._n_a_m_e.ttx src/AndadaSC-Italic.otf._m_a_x_p.ttx src/AndadaSC-Italic.otf._k_e_r_n.ttx src/AndadaSC-Italic.otf._h_m_t_x.ttx src/AndadaSC-Italic.otf._h_h_e_a.ttx src/AndadaSC-Italic.otf._h_e_a_d.ttx src/AndadaSC-Italic.otf._c_m_a_p.ttx src/AndadaSC-Italic.otf.O_S_2f_2.ttx src/AndadaSC-Italic.otf.GlyphOrder.ttx src/AndadaSC-Italic.otf.G_P_O_S_.ttx src/AndadaSC-Italic.otf.C_F_F_.ttx src/AndadaSC-BoldItalic.otf._p_o_s_t.ttx src/AndadaSC-BoldItalic.otf._n_a_m_e.ttx src/AndadaSC-BoldItalic.otf._m_a_x_p.ttx src/AndadaSC-BoldItalic.otf._k_e_r_n.ttx src/AndadaSC-BoldItalic.otf._h_m_t_x.ttx src/AndadaSC-BoldItalic.otf._h_h_e_a.ttx src/AndadaSC-BoldItalic.otf._h_e_a_d.ttx src/AndadaSC-BoldItalic.otf._c_m_a_p.ttx src/AndadaSC-BoldItalic.otf.O_S_2f_2.ttx src/AndadaSC-BoldItalic.otf.GlyphOrder.ttx src/AndadaSC-BoldItalic.otf.G_P_O_S_.ttx src/AndadaSC-BoldItalic.otf.C_F_F_.ttx src/AndadaSC-Bold.otf._p_o_s_t.ttx src/AndadaSC-Bold.otf._n_a_m_e.ttx src/AndadaSC-Bold.otf._m_a_x_p.ttx src/AndadaSC-Bold.otf._k_e_r_n.ttx src/AndadaSC-Bold.otf._h_m_t_x.ttx src/AndadaSC-Bold.otf._h_h_e_a.ttx src/AndadaSC-Bold.otf._h_e_a_d.ttx src/AndadaSC-Bold.otf._c_m_a_p.ttx src/AndadaSC-Bold.otf.O_S_2f_2.ttx src/AndadaSC-Bold.otf.GlyphOrder.ttx src/AndadaSC-Bold.otf.G_P_O_S_.ttx src/AndadaSC-Bold.otf.C_F_F_.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold-TTF.sfd /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic-TTF.sfd /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic-TTF.sfd /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular-TTF.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-BoldItalic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-Italic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.otf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AndadaSC-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.ttf.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream AndadaSC-Bold-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AndadaSC-BoldItalic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AndadaSC-Italic-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream AndadaSC-Regular-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/andadasc/builds/build /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.ttx /home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.ttx
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular-TTF.sfd
+Compiling "/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Regular.ttx" to "/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Italic.ttx" to "/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-BoldItalic.ttx" to "/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/andadasc/builds/build/sources/AndadaSC-Bold.ttx" to "/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+### Test AndadaSC-Regular.ttf
+$ fontbakery-check.py result AndadaSC-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+Parameter              AndadaSC-Regular.ttf    AndadaSC-Bold.ttf    AndadaSC-BoldItalic.ttf    AndadaSC-Italic.ttf    
+ymax                   997                     1039                 1039                       997                    
+hhea.ascent            1039                    1039                 1039                       1039                   
+OS/2.sTypoAscender     1039                    1039                 1039                       1039                   
+OS/2.usWinAscent       1039                    1039                 1039                       1039                   
+ymin                   -259                    -274                 -274                       -259                   
+hhea.descent           -274                    -274                 -274                       -274                   
+OS/2.sTypoDescender    -274                    -274                 -274                       -274                   
+OS/2.usWinDescent      274                     274                  274                        274                    
+hhea.lineGap           0                       0                    0                          0                      
+OS/2.sTypoLineGap      0                       0                    0                          0                      
+hhea total             1313                    1313                 1313                       1313                   
+typo total             1313                    1313                 1313                       1313                   
+win total              1313                    1313                 1313                       1313                   
+UPM:Heights            1000:1256               1000:1313            1000:1313                  1000:1256              
+UPM:Heights %          125 %                   131 %                131 %                      125 %                  
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-Regular.ttf
+$ ls -l 'AndadaSC-Regular.ttf'* # look at the size savings of that subset process
+AndadaSC-Regular.ttf.opt: 65108 bytes
+AndadaSC-Regular.ttf: 69612 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf: 65108 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.autohint.ttf: 108080 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+### Subset TTFs (pyftsubset) AndadaSC-Regular.ttf
+$ pyftsubset AndadaSC-Regular.latin
+$ pyftsubset AndadaSC-Regular.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+spaceWidth is    224
+nbspWidth is     224
+Nothing to do
+### Test AndadaSC-Italic.ttf
+$ fontbakery-check.py result AndadaSC-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-Italic.ttf
+$ ls -l 'AndadaSC-Italic.ttf'* # look at the size savings of that subset process
+AndadaSC-Italic.ttf.opt: 68184 bytes
+AndadaSC-Italic.ttf: 72712 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf: 68184 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.autohint.ttf: 110760 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+### Subset TTFs (pyftsubset) AndadaSC-Italic.ttf
+$ pyftsubset AndadaSC-Italic.latin
+$ pyftsubset AndadaSC-Italic.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+spaceWidth is    224
+nbspWidth is     224
+Nothing to do
+### Test AndadaSC-BoldItalic.ttf
+$ fontbakery-check.py result AndadaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-BoldItalic.ttf
+$ ls -l 'AndadaSC-BoldItalic.ttf'* # look at the size savings of that subset process
+AndadaSC-BoldItalic.ttf.opt: 67940 bytes
+AndadaSC-BoldItalic.ttf: 72484 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf: 67940 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.autohint.ttf: 117512 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+### Subset TTFs (pyftsubset) AndadaSC-BoldItalic.ttf
+$ pyftsubset AndadaSC-BoldItalic.latin
+$ pyftsubset AndadaSC-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+spaceWidth is    224
+nbspWidth is     224
+Nothing to do
+### Test AndadaSC-Bold.ttf
+$ fontbakery-check.py result AndadaSC-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-Bold.ttf
+$ ls -l 'AndadaSC-Bold.ttf'* # look at the size savings of that subset process
+AndadaSC-Bold.ttf.opt: 65380 bytes
+AndadaSC-Bold.ttf: 69900 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf: 65380 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.autohint.ttf: 114792 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+### Subset TTFs (pyftsubset) AndadaSC-Bold.ttf
+$ pyftsubset AndadaSC-Bold.latin
+$ pyftsubset AndadaSC-Bold.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+spaceWidth is    179
+nbspWidth is     179
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AndadaSC-Bold-TTF.sfd AndadaSC-Bold-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf)
+### Test AndadaSC-Bold-TTF.ttf
+$ fontbakery-check.py result AndadaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+Parameter              AndadaSC-Bold-TTF.ttf    AndadaSC-Bold.ttf    AndadaSC-BoldItalic.ttf    AndadaSC-Italic.ttf    AndadaSC-Regular.ttf    
+ymax                   1039                     1039                 1039                       997                    997                     
+hhea.ascent            1039                     1039                 1039                       1039                   1039                    
+OS/2.sTypoAscender     1039                     1039                 1039                       1039                   1039                    
+OS/2.usWinAscent       1039                     1039                 1039                       1039                   1039                    
+ymin                   -274                     -274                 -274                       -259                   -259                    
+hhea.descent           -274                     -274                 -274                       -274                   -274                    
+OS/2.sTypoDescender    -274                     -274                 -274                       -274                   -274                    
+OS/2.usWinDescent      274                      274                  274                        274                    274                     
+hhea.lineGap           0                        0                    0                          0                      0                       
+OS/2.sTypoLineGap      0                        0                    0                          0                      0                       
+hhea total             1313                     1313                 1313                       1313                   1313                    
+typo total             1313                     1313                 1313                       1313                   1313                    
+win total              1313                     1313                 1313                       1313                   1313                    
+UPM:Heights            1000:1313                1000:1313            1000:1313                  1000:1256              1000:1256               
+UPM:Heights %          131 %                    131 %                131 %                      125 %                  125 %                   
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-Bold-TTF.ttf
+$ ls -l 'AndadaSC-Bold-TTF.ttf'* # look at the size savings of that subset process
+AndadaSC-Bold-TTF.ttf.opt: 65056 bytes
+AndadaSC-Bold-TTF.ttf: 70104 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-Bold-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf: 65056 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.autohint.ttf: 113804 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+### Subset TTFs (pyftsubset) AndadaSC-Bold-TTF.ttf
+$ pyftsubset AndadaSC-Bold-TTF.latin
+$ pyftsubset AndadaSC-Bold-TTF.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+spaceWidth is    179
+nbspWidth is     179
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AndadaSC-BoldItalic-TTF.sfd AndadaSC-BoldItalic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf)
+### Test AndadaSC-BoldItalic-TTF.ttf
+$ fontbakery-check.py result AndadaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+Parameter              AndadaSC-BoldItalic-TTF.ttf    AndadaSC-Bold-TTF.ttf    AndadaSC-Regular.ttf    AndadaSC-Italic.ttf    AndadaSC-BoldItalic.ttf    AndadaSC-Bold.ttf    
+ymax                   1039                           1039                     997                     997                    1039                       1039                 
+hhea.ascent            1039                           1039                     1039                    1039                   1039                       1039                 
+OS/2.sTypoAscender     1039                           1039                     1039                    1039                   1039                       1039                 
+OS/2.usWinAscent       1039                           1039                     1039                    1039                   1039                       1039                 
+ymin                   -274                           -274                     -259                    -259                   -274                       -274                 
+hhea.descent           -274                           -274                     -274                    -274                   -274                       -274                 
+OS/2.sTypoDescender    -274                           -274                     -274                    -274                   -274                       -274                 
+OS/2.usWinDescent      274                            274                      274                     274                    274                        274                  
+hhea.lineGap           0                              0                        0                       0                      0                          0                    
+OS/2.sTypoLineGap      0                              0                        0                       0                      0                          0                    
+hhea total             1313                           1313                     1313                    1313                   1313                       1313                 
+typo total             1313                           1313                     1313                    1313                   1313                       1313                 
+win total              1313                           1313                     1313                    1313                   1313                       1313                 
+UPM:Heights            1000:1313                      1000:1313                1000:1256               1000:1256              1000:1313                  1000:1313            
+UPM:Heights %          131 %                          131 %                    125 %                   125 %                  131 %                      131 %                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-BoldItalic-TTF.ttf
+$ ls -l 'AndadaSC-BoldItalic-TTF.ttf'* # look at the size savings of that subset process
+AndadaSC-BoldItalic-TTF.ttf.opt: 67260 bytes
+AndadaSC-BoldItalic-TTF.ttf: 72348 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-BoldItalic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf: 67260 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.autohint.ttf: 117000 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+### Subset TTFs (pyftsubset) AndadaSC-BoldItalic-TTF.ttf
+$ pyftsubset AndadaSC-BoldItalic-TTF.latin
+$ pyftsubset AndadaSC-BoldItalic-TTF.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+spaceWidth is    224
+nbspWidth is     224
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AndadaSC-Italic-TTF.sfd AndadaSC-Italic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf)
+### Test AndadaSC-Italic-TTF.ttf
+$ fontbakery-check.py result AndadaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+Parameter              AndadaSC-Italic-TTF.ttf    AndadaSC-BoldItalic-TTF.ttf    AndadaSC-Bold.ttf    AndadaSC-BoldItalic.ttf    AndadaSC-Italic.ttf    AndadaSC-Regular.ttf    AndadaSC-Bold-TTF.ttf    
+ymax                   997                        1039                           1039                 1039                       997                    997                     1039                     
+hhea.ascent            1039                       1039                           1039                 1039                       1039                   1039                    1039                     
+OS/2.sTypoAscender     1039                       1039                           1039                 1039                       1039                   1039                    1039                     
+OS/2.usWinAscent       1039                       1039                           1039                 1039                       1039                   1039                    1039                     
+ymin                   -259                       -274                           -274                 -274                       -259                   -259                    -274                     
+hhea.descent           -274                       -274                           -274                 -274                       -274                   -274                    -274                     
+OS/2.sTypoDescender    -274                       -274                           -274                 -274                       -274                   -274                    -274                     
+OS/2.usWinDescent      274                        274                            274                  274                        274                    274                     274                      
+hhea.lineGap           0                          0                              0                    0                          0                      0                       0                        
+OS/2.sTypoLineGap      0                          0                              0                    0                          0                      0                       0                        
+hhea total             1313                       1313                           1313                 1313                       1313                   1313                    1313                     
+typo total             1313                       1313                           1313                 1313                       1313                   1313                    1313                     
+win total              1313                       1313                           1313                 1313                       1313                   1313                    1313                     
+UPM:Heights            1000:1256                  1000:1313                      1000:1313            1000:1313                  1000:1256              1000:1256               1000:1313                
+UPM:Heights %          125 %                      131 %                          131 %                131 %                      125 %                  125 %                   131 %                    
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-Italic-TTF.ttf
+$ ls -l 'AndadaSC-Italic-TTF.ttf'* # look at the size savings of that subset process
+AndadaSC-Italic-TTF.ttf.opt: 67960 bytes
+AndadaSC-Italic-TTF.ttf: 73012 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-Italic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf: 67960 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.autohint.ttf: 110632 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+### Subset TTFs (pyftsubset) AndadaSC-Italic-TTF.ttf
+$ pyftsubset AndadaSC-Italic-TTF.latin
+$ pyftsubset AndadaSC-Italic-TTF.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+spaceWidth is    224
+nbspWidth is     224
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/AndadaSC-Regular-TTF.sfd AndadaSC-Regular-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf)
+### Test AndadaSC-Regular-TTF.ttf
+$ fontbakery-check.py result AndadaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold-TTF.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Italic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Bold.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-BoldItalic-TTF.ttf
+Parameter              AndadaSC-Regular-TTF.ttf    AndadaSC-Italic-TTF.ttf    AndadaSC-Bold-TTF.ttf    AndadaSC-Regular.ttf    AndadaSC-Italic.ttf    AndadaSC-BoldItalic.ttf    AndadaSC-Bold.ttf    AndadaSC-BoldItalic-TTF.ttf    
+ymax                   997                         997                        1039                     997                     997                    1039                       1039                 1039                           
+hhea.ascent            1039                        1039                       1039                     1039                    1039                   1039                       1039                 1039                           
+OS/2.sTypoAscender     1039                        1039                       1039                     1039                    1039                   1039                       1039                 1039                           
+OS/2.usWinAscent       1039                        1039                       1039                     1039                    1039                   1039                       1039                 1039                           
+ymin                   -259                        -259                       -274                     -259                    -259                   -274                       -274                 -274                           
+hhea.descent           -274                        -274                       -274                     -274                    -274                   -274                       -274                 -274                           
+OS/2.sTypoDescender    -274                        -274                       -274                     -274                    -274                   -274                       -274                 -274                           
+OS/2.usWinDescent      274                         274                        274                      274                     274                    274                        274                  274                            
+hhea.lineGap           0                           0                          0                        0                       0                      0                          0                    0                              
+OS/2.sTypoLineGap      0                           0                          0                        0                       0                      0                          0                    0                              
+hhea total             1313                        1313                       1313                     1313                    1313                   1313                       1313                 1313                           
+typo total             1313                        1313                       1313                     1313                    1313                   1313                       1313                 1313                           
+win total              1313                        1313                       1313                     1313                    1313                   1313                       1313                 1313                           
+UPM:Heights            1000:1256                   1000:1256                  1000:1313                1000:1256               1000:1256              1000:1313                  1000:1313            1000:1313                      
+UPM:Heights %          125 %                       125 %                      131 %                    125 %                   125 %                  131 %                      131 %                131 %                          
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF AndadaSC-Regular-TTF.ttf
+$ ls -l 'AndadaSC-Regular-TTF.ttf'* # look at the size savings of that subset process
+AndadaSC-Regular-TTF.ttf.opt: 65076 bytes
+AndadaSC-Regular-TTF.ttf: 70160 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf.opt /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+### Autohint TTFs (ttfautohint) AndadaSC-Regular-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf '/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf: 65076 bytes
+/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.autohint.ttf: 107684 bytes
+$ mv /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.autohint.ttf /home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+### Subset TTFs (pyftsubset) AndadaSC-Regular-TTF.ttf
+$ pyftsubset AndadaSC-Regular-TTF.latin
+$ pyftsubset AndadaSC-Regular-TTF.menu
+strippedname:/home/travis/build/fontdirectory/andadasc/builds/build/AndadaSC-Regular-TTF.ttf
+spaceWidth is    224
+nbspWidth is     224
+Nothing to do
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/andadasc/builds/build
+{} exists
+Designer's name from font is: Carolina Giovagnoli
+Original size: 108080\nGzip size: 44518
+Family Name: Andada SC
+PS Name: AndadaSC-Regular
+Full Name: Andada SC
+Style: normal
+Weight: 400
+Filename: AndadaSC-Regular-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Family Name: Andada SC
+PS Name: AndadaSC-BoldItalic
+Full Name: Andada SC Bold Italic
+Style: italic
+Weight: 700
+Filename: AndadaSC-BoldItalic-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Family Name: Andada SC
+PS Name: AndadaSC-Bold
+Full Name: Andada SC Bold
+Style: normal
+Weight: 700
+Filename: AndadaSC-Bold.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Family Name: Andada SC
+PS Name: AndadaSC-BoldItalic
+Full Name: Andada SC Bold Italic
+Style: italic
+Weight: 700
+Filename: AndadaSC-BoldItalic.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Family Name: Andada SC
+PS Name: AndadaSC-Italic
+Full Name: Andada SC Italic
+Style: italic
+Weight: 400
+Filename: AndadaSC-Italic.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Family Name: Andada SC
+PS Name: AndadaSC-Regular
+Full Name: Andada SC
+Style: normal
+Weight: 400
+Filename: AndadaSC-Regular.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Family Name: Andada SC
+PS Name: AndadaSC-Bold
+Full Name: Andada SC Bold
+Style: normal
+Weight: 700
+Filename: AndadaSC-Bold-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Family Name: Andada SC
+PS Name: AndadaSC-Italic
+Full Name: Andada SC Italic
+Style: italic
+Weight: 400
+Filename: AndadaSC-Italic-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Carolina Giovagnoli (huertatipografica.com.ar), with Reserved Font Name 'Andada'
+Error: 
+ERROR: BUILD FAILED

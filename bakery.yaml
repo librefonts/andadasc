@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [AndadaSC-Regular.ttf.ttx, AndadaSC-Italic.ttf.ttx, AndadaSC-BoldItalic.ttf.ttx,
+  AndadaSC-Bold.ttf.ttx, src/AndadaSC-Regular.otf.ttx, src/AndadaSC-Italic.otf.ttx,
+  src/AndadaSC-BoldItalic.otf.ttx, src/AndadaSC-Bold.otf.ttx, src/AndadaSC-Regular-TTF.sfd,
+  src/AndadaSC-Italic-TTF.sfd, src/AndadaSC-BoldItalic-TTF.sfd, src/AndadaSC-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
